@@ -1,0 +1,46 @@
+# Credentials and sensitive files
+*.json
+*_config.json
+*credentials*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Box CLI config
+.box/
+box_config.json
+box-config.json
+
+# ClawBox config
+.clawbox/
+config.json
+clawbox-config.json
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+.tmp
+
+# Backup files
+*.bak
+*.backup
